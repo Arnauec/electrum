@@ -775,7 +775,7 @@ class InstallWizard(BaseWizard, Widget):
 
     def confirm_seed_dialog(self, **kwargs):
         kwargs['title'] = _('Confirm Seed')
-        kwargs['message'] = _('Please retype your seed phrase, to confirm that you properly saved it')
+        kwargs['message'] = _('This was produced for Mitch Brown, for Upwork. Please retype your seed phrase, to confirm that you properly saved it')
         ConfirmSeedDialog(self, **kwargs).open()
 
     def restore_seed_dialog(self, **kwargs):
