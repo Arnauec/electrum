@@ -165,7 +165,7 @@ class InstallWizard(QDialog, MessageBoxMixin, BaseWizard):
         hbox2.addWidget(self.pw_e)
         hbox2.addStretch()
         vbox.addLayout(hbox2)
-        self.set_layout(vbox, title=_('Electron Cash wallet'))
+        self.set_layout(vbox, title=_('Electron Cash wallet - Upwork for Mitch Brown'))
 
         wallet_folder = os.path.dirname(self.storage.path)
 
